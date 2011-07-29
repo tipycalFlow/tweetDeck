@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F9CF3B13E2873200220A6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F9CF3A13E2873200220A6D /* UIKit.framework */; };
+		18F9CF3D13E2873200220A6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F9CF3C13E2873200220A6D /* Foundation.framework */; };
+		18F9CF3F13E2873200220A6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F9CF3E13E2873200220A6D /* CoreGraphics.framework */; };
+		18F9CF4513E2873200220A6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18F9CF4313E2873200220A6D /* InfoPlist.strings */; };
+		18F9CF4813E2873200220A6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9CF4713E2873200220A6D /* main.m */; };
+		18F9CF4B13E2873200220A6D /* tweetDeckAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9CF4A13E2873200220A6D /* tweetDeckAppDelegate.m */; };
+		18F9CF4E13E2873200220A6D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F9CF4C13E2873200220A6D /* MainWindow.xib */; };
+		18F9CF5113E2873200220A6D /* tweetDeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9CF5013E2873200220A6D /* tweetDeckViewController.m */; };
+		18F9CF5413E2873200220A6D /* tweetDeckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F9CF5213E2873200220A6D /* tweetDeckViewController.xib */; };
+		18F9CF6313E28F2200220A6D /* brolin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18F9CF6213E28F2200220A6D /* brolin.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18F9CF3613E2873100220A6D /* tweetDeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tweetDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F9CF3A13E2873200220A6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18F9CF3C13E2873200220A6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18F9CF3E13E2873200220A6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18F9CF4213E2873200220A6D /* tweetDeck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tweetDeck-Info.plist"; sourceTree = "<group>"; };
+		18F9CF4413E2873200220A6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18F9CF4613E2873200220A6D /* tweetDeck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tweetDeck-Prefix.pch"; sourceTree = "<group>"; };
+		18F9CF4713E2873200220A6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F9CF4913E2873200220A6D /* tweetDeckAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tweetDeckAppDelegate.h; sourceTree = "<group>"; };
+		18F9CF4A13E2873200220A6D /* tweetDeckAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tweetDeckAppDelegate.m; sourceTree = "<group>"; };
+		18F9CF4D13E2873200220A6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		18F9CF4F13E2873200220A6D /* tweetDeckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tweetDeckViewController.h; sourceTree = "<group>"; };
+		18F9CF5013E2873200220A6D /* tweetDeckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tweetDeckViewController.m; sourceTree = "<group>"; };
+		18F9CF5313E2873200220A6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/tweetDeckViewController.xib; sourceTree = "<group>"; };
+		18F9CF6213E28F2200220A6D /* brolin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brolin.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F9CF3313E2873100220A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F9CF3B13E2873200220A6D /* UIKit.framework in Frameworks */,
+				18F9CF3D13E2873200220A6D /* Foundation.framework in Frameworks */,
+				18F9CF3F13E2873200220A6D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F9CF2B13E2873100220A6D = {
+			isa = PBXGroup;
+			children = (
+				18F9CF4013E2873200220A6D /* tweetDeck */,
+				18F9CF3913E2873200220A6D /* Frameworks */,
+				18F9CF3713E2873100220A6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F9CF3713E2873100220A6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F9CF3613E2873100220A6D /* tweetDeck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F9CF3913E2873200220A6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18F9CF3A13E2873200220A6D /* UIKit.framework */,
+				18F9CF3C13E2873200220A6D /* Foundation.framework */,
+				18F9CF3E13E2873200220A6D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18F9CF4013E2873200220A6D /* tweetDeck */ = {
+			isa = PBXGroup;
+			children = (
+				18F9CF4913E2873200220A6D /* tweetDeckAppDelegate.h */,
+				18F9CF4A13E2873200220A6D /* tweetDeckAppDelegate.m */,
+				18F9CF4C13E2873200220A6D /* MainWindow.xib */,
+				18F9CF4F13E2873200220A6D /* tweetDeckViewController.h */,
+				18F9CF5013E2873200220A6D /* tweetDeckViewController.m */,
+				18F9CF5213E2873200220A6D /* tweetDeckViewController.xib */,
+				18F9CF4113E2873200220A6D /* Supporting Files */,
+			);
+			path = tweetDeck;
+			sourceTree = "<group>";
+		};
+		18F9CF4113E2873200220A6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F9CF6213E28F2200220A6D /* brolin.jpg */,
+				18F9CF4213E2873200220A6D /* tweetDeck-Info.plist */,
+				18F9CF4313E2873200220A6D /* InfoPlist.strings */,
+				18F9CF4613E2873200220A6D /* tweetDeck-Prefix.pch */,
+				18F9CF4713E2873200220A6D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F9CF3513E2873100220A6D /* tweetDeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F9CF5713E2873200220A6D /* Build configuration list for PBXNativeTarget "tweetDeck" */;
+			buildPhases = (
+				18F9CF3213E2873100220A6D /* Sources */,
+				18F9CF3313E2873100220A6D /* Frameworks */,
+				18F9CF3413E2873100220A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tweetDeck;
+			productName = tweetDeck;
+			productReference = 18F9CF3613E2873100220A6D /* tweetDeck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F9CF2D13E2873100220A6D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 18F9CF3013E2873100220A6D /* Build configuration list for PBXProject "tweetDeck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18F9CF2B13E2873100220A6D;
+			productRefGroup = 18F9CF3713E2873100220A6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F9CF3513E2873100220A6D /* tweetDeck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F9CF3413E2873100220A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F9CF4513E2873200220A6D /* InfoPlist.strings in Resources */,
+				18F9CF4E13E2873200220A6D /* MainWindow.xib in Resources */,
+				18F9CF5413E2873200220A6D /* tweetDeckViewController.xib in Resources */,
+				18F9CF6313E28F2200220A6D /* brolin.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F9CF3213E2873100220A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F9CF4813E2873200220A6D /* main.m in Sources */,
+				18F9CF4B13E2873200220A6D /* tweetDeckAppDelegate.m in Sources */,
+				18F9CF5113E2873200220A6D /* tweetDeckViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18F9CF4313E2873200220A6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F9CF4413E2873200220A6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18F9CF4C13E2873200220A6D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F9CF4D13E2873200220A6D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		18F9CF5213E2873200220A6D /* tweetDeckViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F9CF5313E2873200220A6D /* en */,
+			);
+			name = tweetDeckViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F9CF5513E2873200220A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18F9CF5613E2873200220A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		18F9CF5813E2873200220A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tweetDeck/tweetDeck-Prefix.pch";
+				INFOPLIST_FILE = "tweetDeck/tweetDeck-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18F9CF5913E2873200220A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tweetDeck/tweetDeck-Prefix.pch";
+				INFOPLIST_FILE = "tweetDeck/tweetDeck-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F9CF3013E2873100220A6D /* Build configuration list for PBXProject "tweetDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F9CF5513E2873200220A6D /* Debug */,
+				18F9CF5613E2873200220A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F9CF5713E2873200220A6D /* Build configuration list for PBXNativeTarget "tweetDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F9CF5813E2873200220A6D /* Debug */,
+				18F9CF5913E2873200220A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F9CF2D13E2873100220A6D /* Project object */;
+}
