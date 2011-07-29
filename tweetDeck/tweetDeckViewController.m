@@ -86,7 +86,6 @@
         label3.frame = CGRectMake(400 - currentPosition.x/2, (320 - currentPosition.x)*(upperViewHeight)/320, 160, labelHeight);
         labelA.frame = CGRectMake(0, (320 - currentPosition.x)*(upperViewHeight)/320, 80, labelHeight);
         labelB.frame = CGRectMake(240, (320 - currentPosition.x)*(upperViewHeight)/320, 80, labelHeight);
-        
     }
     else{
         megaScroll.frame = CGRectMake(0,labelHeight, 320, 460);
@@ -101,14 +100,11 @@
 
 #pragma mark - View lifecycle
 
-
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [megaScroll setContentSize:CGSizeMake(960, megaViewHeight)];
     [super viewDidLoad];
 }
-
 
 - (void)viewDidUnload
 {
