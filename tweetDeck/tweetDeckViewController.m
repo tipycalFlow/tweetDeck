@@ -88,7 +88,7 @@
         labelB.frame = CGRectMake(240, (320 - currentPosition.x)*(upperViewHeight)/320, 80, labelHeight);
     }
     else{
-        megaScroll.frame = CGRectMake(0,labelHeight, 320, 460);
+        megaScroll.frame = CGRectMake(0,labelHeight, 320, 440);
         label.frame = CGRectMake(0, 0, 960, labelHeight);
         label1.frame = CGRectMake(80 - currentPosition.x/2, 0, 160, labelHeight);
         label2.frame = CGRectMake(240 - currentPosition.x/2, 0, 160, labelHeight);
@@ -103,6 +103,9 @@
 - (void)viewDidLoad
 {
     [megaScroll setContentSize:CGSizeMake(960, megaViewHeight)];
+    megaScroll.pagingEnabled = YES;
+    table1.frame = CGRectMake(320, 0, 320, megaViewHeight);
+    table2.frame = CGRectMake(640, 0, 320, megaViewHeight);
     [super viewDidLoad];
 }
 
