@@ -10,8 +10,8 @@
 
 @implementation tweetDeckViewController
 
-@synthesize megaScroll,upperView;
-@synthesize label,label1,label2,label3,labelA,labelB;
+@synthesize megaScroll,upperView,followView;
+@synthesize label,label1,label2,label3,labelA,labelB,labelT;
 @synthesize table1,table2;
 @synthesize initialPosition,currentPosition;
 
@@ -86,6 +86,7 @@
         label3.frame = CGRectMake(400 - currentPosition.x/2, (320 - currentPosition.x)*(upperViewHeight)/320, 160, labelHeight);
         labelA.frame = CGRectMake(0, (320 - currentPosition.x)*(upperViewHeight)/320, 80, labelHeight);
         labelB.frame = CGRectMake(240, (320 - currentPosition.x)*(upperViewHeight)/320, 80, labelHeight);
+        
     }
     else{
         megaScroll.frame = CGRectMake(0,labelHeight, 320, 440);
@@ -98,16 +99,20 @@
     }
 }
 
+
 #pragma mark - View lifecycle
 
+
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [megaScroll setContentSize:CGSizeMake(960, megaViewHeight)];
-    megaScroll.pagingEnabled = YES;
     table1.frame = CGRectMake(320, 0, 320, megaViewHeight);
     table2.frame = CGRectMake(640, 0, 320, megaViewHeight);
+    [followView setContentSize:CGSizeMake(281, 31)];
     [super viewDidLoad];
 }
+
 
 - (void)viewDidUnload
 {

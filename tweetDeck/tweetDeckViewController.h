@@ -10,6 +10,7 @@
 
 @interface tweetDeckViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate> {
     IBOutlet UIView * upperView;
+    IBOutlet UIScrollView * followView;
     IBOutlet UIScrollView* megaScroll;
     IBOutlet UITableView * table1;
     IBOutlet UITableView * table2;
@@ -19,10 +20,12 @@
     IBOutlet UILabel * label3;
     IBOutlet UILabel * labelA;
     IBOutlet UILabel * labelB;
+    IBOutlet UILabel * labelT;
     CGPoint initialPosition;
     CGPoint currentPosition;
 }
 @property(nonatomic,retain) UIView * upperView;
+@property(nonatomic,retain) UIScrollView * followView;
 @property(nonatomic,retain) UITableView * table1;
 @property(nonatomic,retain) UITableView * table2;
 @property(nonatomic,retain) UIScrollView* megaScroll;
@@ -32,6 +35,7 @@
 @property(nonatomic,retain) UILabel * label3;
 @property(nonatomic,retain) UILabel * labelA;
 @property(nonatomic,retain) UILabel * labelB;
+@property(nonatomic,retain) UILabel * labelT;
 @property(assign) CGPoint initialPosition;
 @property(assign) CGPoint currentPosition;
 

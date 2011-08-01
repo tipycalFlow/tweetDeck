@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18050F4E13E6AA440021DF0D /* tweetDeckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18050F4D13E6AA440021DF0D /* tweetDeckViewController.xib */; };
 		18F9CF3B13E2873200220A6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F9CF3A13E2873200220A6D /* UIKit.framework */; };
 		18F9CF3D13E2873200220A6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F9CF3C13E2873200220A6D /* Foundation.framework */; };
 		18F9CF3F13E2873200220A6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F9CF3E13E2873200220A6D /* CoreGraphics.framework */; };
@@ -15,11 +16,11 @@
 		18F9CF4B13E2873200220A6D /* tweetDeckAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9CF4A13E2873200220A6D /* tweetDeckAppDelegate.m */; };
 		18F9CF4E13E2873200220A6D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F9CF4C13E2873200220A6D /* MainWindow.xib */; };
 		18F9CF5113E2873200220A6D /* tweetDeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9CF5013E2873200220A6D /* tweetDeckViewController.m */; };
-		18F9CF5413E2873200220A6D /* tweetDeckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F9CF5213E2873200220A6D /* tweetDeckViewController.xib */; };
 		18F9CF6313E28F2200220A6D /* brolin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18F9CF6213E28F2200220A6D /* brolin.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18050F4D13E6AA440021DF0D /* tweetDeckViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tweetDeckViewController.xib; sourceTree = "<group>"; };
 		18F9CF3613E2873100220A6D /* tweetDeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tweetDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F9CF3A13E2873200220A6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18F9CF3C13E2873200220A6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -33,7 +34,6 @@
 		18F9CF4D13E2873200220A6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		18F9CF4F13E2873200220A6D /* tweetDeckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tweetDeckViewController.h; sourceTree = "<group>"; };
 		18F9CF5013E2873200220A6D /* tweetDeckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tweetDeckViewController.m; sourceTree = "<group>"; };
-		18F9CF5313E2873200220A6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/tweetDeckViewController.xib; sourceTree = "<group>"; };
 		18F9CF6213E28F2200220A6D /* brolin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brolin.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,7 @@
 				18F9CF4C13E2873200220A6D /* MainWindow.xib */,
 				18F9CF4F13E2873200220A6D /* tweetDeckViewController.h */,
 				18F9CF5013E2873200220A6D /* tweetDeckViewController.m */,
-				18F9CF5213E2873200220A6D /* tweetDeckViewController.xib */,
+				18050F4D13E6AA440021DF0D /* tweetDeckViewController.xib */,
 				18F9CF4113E2873200220A6D /* Supporting Files */,
 			);
 			path = tweetDeck;
@@ -153,8 +153,8 @@
 			files = (
 				18F9CF4513E2873200220A6D /* InfoPlist.strings in Resources */,
 				18F9CF4E13E2873200220A6D /* MainWindow.xib in Resources */,
-				18F9CF5413E2873200220A6D /* tweetDeckViewController.xib in Resources */,
 				18F9CF6313E28F2200220A6D /* brolin.jpg in Resources */,
+				18050F4E13E6AA440021DF0D /* tweetDeckViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +188,6 @@
 				18F9CF4D13E2873200220A6D /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		18F9CF5213E2873200220A6D /* tweetDeckViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18F9CF5313E2873200220A6D /* en */,
-			);
-			name = tweetDeckViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,6 +274,7 @@
 				18F9CF5913E2873200220A6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
